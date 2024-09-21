@@ -100,7 +100,7 @@ public class AdjacencyMatrix {
         int numNodes = 9;
         int [][] adj = new int[numNodes][numNodes];
 
-        initializeArr(adj);
+        adj = initializeArr(adj);
 
         // Print all non set edges
         printGraph(adj);

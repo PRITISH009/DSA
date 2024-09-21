@@ -160,6 +160,8 @@ public class AdjacencyMatrix {
             }
         }
 
+        System.out.println("--------------------------------------------");
+
         visited = initializeVisitedArr(numNodes);
 
         // Depth First Search (DFS) Traversal
